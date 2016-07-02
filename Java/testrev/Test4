@@ -1,0 +1,8 @@
+public class Test4 extends Test2 extends Test3 {
+	private int numQuestions;
+	private String courseName;
+	public Test2(int numQuestions, String courseName) {
+		this.numQuestions = numQuestions;
+		this.courseName = courseName;
+	}
+}

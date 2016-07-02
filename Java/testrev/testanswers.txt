@@ -1,0 +1,42 @@
+TTTT(IF THE SUBCLASS IS ALSO ABSTRACT, NO IMPLEMENTATION REQUIRED)TT(OVERLOADING IS SAME NAME AND RETURN TYPE, BUT DIFFERENT PARAMETER LIST)TTTT;
+B, B (public boolean equals(Object other)), B, B (what is dynamic method binding: at runtime, chooses the most specific method to run), B (unlimited interfaces 
+may be implemented)
+
+B (animal is abstract, cannot say Animal something = new Animal();)
+B (Cannot make Dog = Mammal, subclasses cannot be of type superclass, but superclass can be of type subclass)
+B (dynamic method binding, regardless of casting)
+B
+B
+
+Wee!
+I'm still running.
+
+Super duper
+Super fly times 2
+(REMEMBER IMPLICIT SUPER() CALLS!)
+
+public class Foo extends Bar implements Baz, Bang {}
+
+f1.equals(f2); || f2.equals(f1);
+f1 == f2
+
+public void process(String newStr) throws FileNotFoundException {}
+
+try {
+	initFromFile(new File(somefile));
+} catch (FileNotFoundException e) {
+	//
+} catch (IOException e) {
+	//
+} catch (ParseException e) {
+	//
+}
+
+public class ConcretePfunker extends Pfunker {
+	public ConcretePfunker(String name, Level level) {
+		super(name, level);
+	}
+	public int compareTo(Object other) {
+		return level.ordinal() - ((Pfunker) other).level.ordinal();
+	}
+}

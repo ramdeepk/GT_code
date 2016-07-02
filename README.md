@@ -1,0 +1,1 @@
+This repository contains code that I wrote during my first year of college at Georgia Tech. It contains coursework for CS 1301 (Intro to Computer Science) and CS 1331 (Intro to Object Oriented Programming).
